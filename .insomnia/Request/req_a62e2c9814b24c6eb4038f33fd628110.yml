@@ -1,9 +1,9 @@
 _id: req_a62e2c9814b24c6eb4038f33fd628110
 type: Request
-parentId: wrk_07e3ed16e8f04bbda34ce35116d34869
-modified: 1653613200876
+parentId: fld_d216f96c6c2a41cc8dd28f92886bc56a
+modified: 1653614213207
 created: 1653613136037
-url: https://gorest.co.in/public/v2/todos/{{ _.todo_id }}
+url: https://gorest.co.in/public/v2/todos/{{ _.test }}
 name: getTodoById
 description: ""
 method: GET
