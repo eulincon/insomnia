@@ -1,17 +1,17 @@
-_id: req_99d79fa2d22447afa821127205683335
+_id: req_a62e2c9814b24c6eb4038f33fd628110
 type: Request
 parentId: wrk_07e3ed16e8f04bbda34ce35116d34869
-modified: 1653613099769
-created: 1653608119471
-url: https://gorest.co.in/public/v2/todos
-name: getTodos
+modified: 1653613200876
+created: 1653613136037
+url: https://gorest.co.in/public/v2/todos/{{ _.todo_id }}
+name: getTodoById
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1653608119471
+metaSortKey: -1653613136037
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
